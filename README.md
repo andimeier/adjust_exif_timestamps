@@ -14,3 +14,9 @@ A simple command line tool which adjusts the EXIF timestamps. This can also be u
 ### jhead
 
 Adjust timestamp with -ta switch
+
+### exiv2
+
+Adjust timestamp by 10 minutes in the past:
+
+    exiv2 -a -00:10:00 ad test.jpg
